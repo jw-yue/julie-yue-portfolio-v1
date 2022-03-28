@@ -1,0 +1,11 @@
+$mainColor: #f7717e;
+$mainLilac: #ce92f7;
+$mainYellow: #ffe184;
+
+$width: 768px;
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}
