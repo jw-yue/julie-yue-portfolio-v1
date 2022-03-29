@@ -11,7 +11,7 @@
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding-bottom: 60px;
+    padding: 10px 0 10px 0;
   }
 
   .left {
@@ -22,7 +22,7 @@
       clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
       width: 700px;
       height: 700px;
-      background-color: #f7717e;
+      background-color: #cd97a9;
       display: flex;
       align-items: flex-end;
       justify-content: center;
@@ -40,7 +40,7 @@
         height: 93.4%;
         border-radius: 50%;
         border: solid black;
-        border-width: 5px;
+        border-width: 3px;
 
         @include mobile {
           width: 275px;
@@ -52,6 +52,11 @@
   .right {
     flex: 0.5;
     position: relative;
+    padding: 0 10px 0 0;
+
+    @include mobile {
+      padding: 0 10px 0 0;
+    }
 
     .wrapper {
       width: 100%;
@@ -64,8 +69,7 @@
       @include mobile {
         padding-left: 0;
         align-items: center;
-        height: 240px;
-        padding-top: 40px;
+        padding: 60px 0 50px 0;
       }
 
       h1 {
@@ -91,7 +95,7 @@
 
         span {
           font-size: inherit;
-          color: #ce92f7;
+          color: $softLilac;
         }
 
         .ityped-cursor {
@@ -121,22 +125,6 @@
 
         span {
           color: $mainColor;
-        }
-      }
-    }
-    a {
-      position: absolute;
-      bottom: 10px;
-      left: 40%;
-
-      img {
-        width: 30px;
-        animation: arrowBlink 1.5s infinite;
-      }
-
-      @keyframes arrowBlink {
-        100% {
-          opacity: 0;
         }
       }
     }

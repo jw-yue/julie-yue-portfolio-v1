@@ -1,30 +1,29 @@
 import styled from 'styled-components'
 
 export const ProjectsContainer = styled.div`
-  height: 800px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: black;
 
-  @media screen and (max-width: 768px) {
-    height: 1570px;
+  @media screen and (max-width: 1000px) {
+    height: 1100px;
   }
 
-  @media screen and (max-width: 480px) {
-    height: 1300px;
+  @media screen and (max-width: 768px) {
+    height: 1450px;
   }
 `
 
 export const ProjectsWrapper = styled.div`
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 1100px;
+  margin: 0 10px 0 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  grid-gap: 16px;
-  padding: 0 50px;
+  grid-gap: 17px;
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -50,29 +49,7 @@ export const ProjectsCard = styled.a`
   border: solid;
   text-decoration: none;
   color: black;
-  margin: 0 15px 30px 15px;
-
-  &:hover {
-    transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-  }
-`
-
-export const ProjectsCard2 = styled.div`
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  border-radius: 10px;
-  min-height: 320px;
-  padding: 30px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  transition: all 0.2 ease-in-out;
-  border: solid;
-  text-decoration: none;
-  color: black;
+  margin: 0 15px 0 15px;
 
   &:hover {
     transform: scale(1.02);

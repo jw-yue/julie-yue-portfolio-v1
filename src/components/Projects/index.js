@@ -54,8 +54,8 @@ const Projects = () => {
             <ProjectsIcon src={Icon4} />
             <ProjectsH2>Color Generator</ProjectsH2>
             <ProjectsP>
-              Generates tints and shades of a color of user choice. Can copy
-              values in hex to clipboard.
+              Generates tints and shades of a color of user choice with States.
+              Can copy values in hex to clipboard.
             </ProjectsP>
           </Projectdiv>
         </ProjectsCard>
