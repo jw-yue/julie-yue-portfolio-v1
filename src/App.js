@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-
+import ScrollToTop from './components/ScrollToTop'
 import Home from './pages'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
@@ -20,6 +20,7 @@ function App() {
   return (
     <div className="app">
       <Router basename={process.env.PUBLIC_URL}>
+        <ScrollToTop />
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar
           toggle={toggle}

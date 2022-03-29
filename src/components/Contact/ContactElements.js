@@ -34,6 +34,7 @@ export const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 8px;
 
   @media screen and (max-width: 400px) {
     height: 80%;
@@ -109,7 +110,7 @@ export const FormButton = styled.input`
   outline: none;
   border: 2px solid white;
   cursor: pointer; 
-  margin: 10px 120px 30px 120px;
+  margin: 5px 120px 7px 120px;
   background-color: rgba(0,0,0,0);
 
   &:hover {
