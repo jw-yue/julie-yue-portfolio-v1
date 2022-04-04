@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon1 from '../../images/dog.png'
+import Icon1 from '../../images/dogs.png'
 import Icon2 from '../../images/weather.png'
 import Icon4 from '../../images/color.png'
 import {
