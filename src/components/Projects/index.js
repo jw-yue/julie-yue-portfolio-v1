@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon1 from '../../images/task.png'
+import Icon1 from '../../images/dog.png'
 import Icon2 from '../../images/weather.png'
 import Icon4 from '../../images/color.png'
 import {
@@ -18,6 +18,17 @@ const Projects = () => {
     <ProjectsContainer id="projects">
       <ProjectsH1>Projects</ProjectsH1>
       <ProjectsWrapper>
+        <ProjectsCard href="https://julzevias.github.io/dog/" target="_blank">
+          <Projectdiv>
+            <ProjectsIcon src={Icon1} />
+            <ProjectsH2>Dogs App</ProjectsH2>
+            <ProjectsP>
+              Display, search, add, edit, and delete a dog. Uses Context API to
+              manage global states.
+            </ProjectsP>
+          </Projectdiv>
+        </ProjectsCard>
+
         <ProjectsCard
           href="https://julzevias.github.io/weather2/"
           target="_blank"
@@ -28,20 +39,6 @@ const Projects = () => {
             <ProjectsP>
               Search a location for the weather. Includes custom API calls,
               reactive icons, and BootStrap.
-            </ProjectsP>
-          </Projectdiv>
-        </ProjectsCard>
-
-        <ProjectsCard
-          href="https://julzevias.github.io/react-task-tracker/"
-          target="_blank"
-        >
-          <Projectdiv>
-            <ProjectsIcon src={Icon1} />
-            <ProjectsH2>Task Management</ProjectsH2>
-            <ProjectsP>
-              Keep track of tasks in a productivity application. Heavily
-              utilizes State and the date-picker library.
             </ProjectsP>
           </Projectdiv>
         </ProjectsCard>
