@@ -1,7 +1,7 @@
-import React from 'react'
-import Icon1 from '../../images/dogs.png'
-import Icon2 from '../../images/weather.png'
-import Icon4 from '../../images/color.png'
+import React from "react";
+import Icon1 from "../../images/dogs.png";
+import Icon2 from "../../images/weather.png";
+import Icon4 from "../../images/color.png";
 import {
   ProjectsContainer,
   ProjectsH1,
@@ -11,14 +11,14 @@ import {
   ProjectsH2,
   ProjectsP,
   Projectdiv,
-} from './ProjectsElements'
+} from "./ProjectsElements";
 
 const Projects = () => {
   return (
     <ProjectsContainer id="projects">
       <ProjectsH1>Projects</ProjectsH1>
       <ProjectsWrapper>
-        <ProjectsCard href="https://julzevias.github.io/dog/" target="_blank">
+        <ProjectsCard href="https://jw-yue.github.io/dog/" target="_blank">
           <Projectdiv>
             <ProjectsIcon src={Icon1} />
             <ProjectsH2>Dogs App</ProjectsH2>
@@ -29,10 +29,7 @@ const Projects = () => {
           </Projectdiv>
         </ProjectsCard>
 
-        <ProjectsCard
-          href="https://julzevias.github.io/weather2/"
-          target="_blank"
-        >
+        <ProjectsCard href="https://jw-yue.github.io/weather2/" target="_blank">
           <Projectdiv>
             <ProjectsIcon src={Icon2} />
             <ProjectsH2>Weather Application</ProjectsH2>
@@ -44,7 +41,7 @@ const Projects = () => {
         </ProjectsCard>
 
         <ProjectsCard
-          href="https://julzevias.github.io/color-generator/"
+          href="https://jw-yue.github.io/color-generator/"
           target="_blank"
         >
           <Projectdiv>
@@ -58,7 +55,7 @@ const Projects = () => {
         </ProjectsCard>
       </ProjectsWrapper>
     </ProjectsContainer>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
