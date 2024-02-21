@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/julie-yue-portfolio-v1/static/css/main.ef3df5e1.css",
+    "main.js": "/julie-yue-portfolio-v1/static/js/main.8b86e4e7.js",
+    "static/media/video.mp4": "/julie-yue-portfolio-v1/static/media/video.374798e82e3ffba21132.mp4",
+    "static/media/dogs.png": "/julie-yue-portfolio-v1/static/media/dogs.dbf49d0eb4f1d2b748ae.png",
+    "static/media/portrait.jpg": "/julie-yue-portfolio-v1/static/media/portrait.fba435a987dffd580544.jpg",
+    "static/media/weather.png": "/julie-yue-portfolio-v1/static/media/weather.6d33d43a456808fc0c96.png",
+    "static/media/abstract.png": "/julie-yue-portfolio-v1/static/media/abstract.6667e9fc3f12eb785bb8.png",
+    "static/media/color.png": "/julie-yue-portfolio-v1/static/media/color.769be15e84c401d5f77f.png",
+    "static/media/Julie_Yue_Resume.pdf": "/julie-yue-portfolio-v1/static/media/Julie_Yue_Resume.624f84c5e6194548128c.pdf",
+    "index.html": "/julie-yue-portfolio-v1/index.html",
+    "main.ef3df5e1.css.map": "/julie-yue-portfolio-v1/static/css/main.ef3df5e1.css.map",
+    "main.8b86e4e7.js.map": "/julie-yue-portfolio-v1/static/js/main.8b86e4e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef3df5e1.css",
+    "static/js/main.8b86e4e7.js"
+  ]
+}
