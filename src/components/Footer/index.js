@@ -1,6 +1,6 @@
-import React from 'react'
-import { animateScroll as scroll } from 'react-scroll'
-import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa'
+import React from "react";
+import { animateScroll as scroll } from "react-scroll";
+import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import {
   FooterContainer,
   SocialMedia,
@@ -9,11 +9,11 @@ import {
   WebsiteRights,
   SocialIcons,
   SocialIconLink,
-} from './FooterElements'
+} from "./FooterElements";
 const Footer = () => {
   const toggleHome = () => {
-    scroll.scrollToTop()
-  }
+    scroll.scrollToTop();
+  };
   return (
     <FooterContainer>
       <SocialMedia>
@@ -27,7 +27,7 @@ const Footer = () => {
           </WebsiteRights>
           <SocialIcons>
             <SocialIconLink
-              href="https://www.linkedin.com/in/julie-yue-570596164/"
+              href="https://www.linkedin.com/in/j-yue/"
               target="_blank"
               aria-label="Linkedin"
             >
@@ -35,7 +35,7 @@ const Footer = () => {
             </SocialIconLink>
 
             <SocialIconLink
-              href="https://github.com/julzevias"
+              href="https://github.com/jw-yue"
               target="_blank"
               aria-label="Github"
             >
@@ -61,7 +61,7 @@ const Footer = () => {
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

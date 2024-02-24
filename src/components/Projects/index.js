@@ -18,7 +18,7 @@ const Projects = () => {
     <ProjectsContainer id="projects">
       <ProjectsH1>Projects</ProjectsH1>
       <ProjectsWrapper>
-        <ProjectsCard href="https://jw-yue.github.io/dog/" target="_blank">
+        <ProjectsCard href="https://github.com/jw-yue/dog-app" target="_blank">
           <Projectdiv>
             <ProjectsIcon src={Icon1} />
             <ProjectsH2>Dogs App</ProjectsH2>
@@ -29,7 +29,10 @@ const Projects = () => {
           </Projectdiv>
         </ProjectsCard>
 
-        <ProjectsCard href="https://jw-yue.github.io/weather2/" target="_blank">
+        <ProjectsCard
+          href="https://github.com/jw-yue/weather-app"
+          target="_blank"
+        >
           <Projectdiv>
             <ProjectsIcon src={Icon2} />
             <ProjectsH2>Weather Application</ProjectsH2>
