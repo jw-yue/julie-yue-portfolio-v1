@@ -29,10 +29,7 @@ const Projects = () => {
           </Projectdiv>
         </ProjectsCard>
 
-        <ProjectsCard
-          href="https://github.com/jw-yue/weather-app"
-          target="_blank"
-        >
+        <ProjectsCard href="https://jw-yue.github.io/dog-app/" target="_blank">
           <Projectdiv>
             <ProjectsIcon src={Icon2} />
             <ProjectsH2>Weather Application</ProjectsH2>
